@@ -12,17 +12,17 @@ public class PokerHands {
             noOfWinsPlayer2 += h1.getHandValue() < h2.getHandValue() ? 1 : 0;
             System.out.println("P1: " + h1.type());
             System.out.println(h1);
-            System.out.println(h1.getHandValue());
+            //System.out.println(h1.getHandValue());
 
             System.out.println("P2: " + h2.type());
             System.out.println(h2);
-            System.out.println(h2.getHandValue());
+            //System.out.println(h2.getHandValue());
 
         }
         System.out.println("No. of wins for Player 1: " + noOfWinsPlayer1);
         System.out.println("No. of wins for Player 2: " + noOfWinsPlayer2);
         long endTime   = System.currentTimeMillis();
         long totalTime = endTime - startTime;
-        System.out.println(totalTime);
+        System.out.println(totalTime + " milliseconds");
     }
 }
